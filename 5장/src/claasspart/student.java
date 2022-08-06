@@ -2,9 +2,9 @@ package claasspart;
 
 public class student {
 	int studentID;
-	String studentname="全铰泅";
+	static String studentname="全铰泅";
 	int grade;
-	String address="颇林";
+	static String address="颇林";
 	
 	public static void showStudentInfo() {
 		System.out.println(studentname+","+address);

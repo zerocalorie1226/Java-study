@@ -31,6 +31,7 @@ public class bankTest {
 					break;
 				case 4:
 					System.out.println("프로그램 종료");
+					scanner.close();
 					break;
 			}
 			if(choose==4)
